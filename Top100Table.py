@@ -2,7 +2,9 @@ import json
 import requests
 from datetime import datetime
 from prettytable import PrettyTable
-from colorama import Fore, Back, Style
+from colorama import init, Fore, Back, Style
+
+init(convert=True)
 
 # Change currency type here
 convert = 'USD'
@@ -88,7 +90,7 @@ while True:
             market_cap_string = '{:,}'.format(market_cap)
 
         # Add rows to table
-        table.add_row([rank, name + ' ( ' + symbol + ')',
+        table.add_row([rank, name + ' (' + symbol + ')',
                        '$' + str(price), '$' + str(market_cap),
                        '$' + volume_string, str(hour_change),
                        str(day_change), str(week_change)])
