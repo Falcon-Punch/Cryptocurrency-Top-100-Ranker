@@ -1,3 +1,9 @@
+##############################################################################
+# Cryptocurrency API Practice
+# Author: Joe Schell
+# Date: 07/23/2018
+##############################################################################
+
 import json
 import requests
 from datetime import datetime
