@@ -2,8 +2,11 @@
 
 ### Python app that displays top 100 cryptocurrencies
 
-The user is given the choice to display the currencies in order of rank (on the Coin Market Cap site), 
-by 24 hour change or by 24 hour volume.
+The user is given the choice to display the cryptocurrencies in three different orders:
+
+1) order of rank (according to the Coin Market Cap site) 
+2) by 24 hour change 
+3) by 24 hour volume.
 
 Here is an image of the program execution:
 
