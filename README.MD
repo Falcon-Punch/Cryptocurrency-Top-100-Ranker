@@ -7,4 +7,4 @@ by 24 hour change or by 24 hour volume.
 
 Here is an image of the program execution:
 
-![image](https://user-images.githubusercontent.com/24645219/43116581-54689dc4-8ebd-11e8-9435-351f695af67d.png)
+![execution](https://user-images.githubusercontent.com/24645219/43116800-60ad06aa-8ebe-11e8-83be-45d861553c83.jpg)
